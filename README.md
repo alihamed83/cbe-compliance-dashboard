@@ -20,20 +20,27 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Walkthrough guide 
+How to Run the Compliance Dashboard
+You have successfully built a portable, standalone version of the Egypt Financial Compliance Dashboard.
 
-To learn more about Next.js, take a look at the following resources:
+Quick Start (No Installation Required)
+Navigate to the compliance-dashboard-local/dist folder.
+Double-click index.html to open it in your default browser.
+The entire application is self-contained in this ONE file.
+TIP
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You only need the dist/index.html file. You can email it, copy it to a stick, or keep it on your desktop. It works completely offline.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Features Included
+✅ Expected Evidence: View detailed evidence requirements for each control
+✅ Interactive Assessment: Full checklist functionality
+✅ Auto-Save: Progress is saved automatically to your browser
+✅ Export Reports: Generate professional PDF and Excel reports locally
+✅ JSON Backup: Export/Import your data to move between computers
+Project Structure
+The source code is in compliance-dashboard-local/. If you want to modify the code:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# cbe-compliance-dashboard
-# cbe-compliance-dashboard
-# cbe-compliance-dashboard
+Run npm install to setup
+Run npm run dev to start local development server
+Run npm run build to generate a new dist version
